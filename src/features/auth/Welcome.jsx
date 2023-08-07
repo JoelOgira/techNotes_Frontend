@@ -6,7 +6,7 @@ const Welcome = () => {
     const today = new Intl.DateTimeFormat('en-US', { dateStyle: 'full', timeStyle: 'long' }).format(date);
 
     return (
-        <section className="flex justify-start items-center bg-opacity-20">
+        <section className="flex flex-col justify-start items-start bg-opacity-20">
             <p>{today}</p>
             <h1 className="text-2xl font-semibold text-center underline">Welcome</h1>
             <p><Link to="/dash/notes">View techNotes</Link></p>
