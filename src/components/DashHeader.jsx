@@ -5,7 +5,7 @@ const DashHeader = () => {
         <header>
             <div className="flex justify-between items-center">
                 <Link to="/dash/notes">
-                    <h1>techNotes</h1>
+                    <h1 className="font-bold text-2xl">techNotes</h1>
                 </Link>
                 <nav className="flex justify-between items-center">
                     <div className=""></div>
