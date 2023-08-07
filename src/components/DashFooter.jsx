@@ -22,7 +22,7 @@ const DashFooter = () => {
     }
 
     return (
-        <footer className="sticky top-full">
+        <footer className="sticky top-full flex justify-center items-center py-6">
             {goHomeButton}
             <p>Copyright &copy; techNotes {thisYear}</p>
         </footer>
