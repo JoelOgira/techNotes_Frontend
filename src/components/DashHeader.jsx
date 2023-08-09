@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const DashHeader = () => {
     return (
         <header>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center mb-6">
                 <Link to="/dash/notes">
                     <h1 className="font-bold text-2xl">techNotes</h1>
                 </Link>
