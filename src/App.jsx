@@ -9,7 +9,7 @@ import UsersList from "./features/users/UsersList";
 
 export default function App() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white bg-opacity-30">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Public />} />
