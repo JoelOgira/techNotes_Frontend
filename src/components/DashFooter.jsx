@@ -16,13 +16,13 @@ const DashFooter = () => {
                 title="Home"
                 onClick={onGoHomeClicked}
             >
-                <FontAwesomeIcon icon={faHouse} />
+                <FontAwesomeIcon icon={faHouse} className="text-3xl border-ad" />
             </button>
         )
     }
 
     return (
-        <footer className="sticky top-full flex justify-center items-center py-6">
+        <footer className="sticky top-full flex flex-row space-x-5 justify-center items-center py-6">
             {goHomeButton}
             <p>Copyright &copy; techNotes {thisYear}</p>
         </footer>
