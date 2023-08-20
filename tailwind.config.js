@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'repair-shop': "url('./public/img/background.jpg')"
+      }
+    },
   },
   plugins: [],
 }
