@@ -9,27 +9,29 @@ import UsersList from "./features/users/UsersList";
 
 export default function App() {
   return (
-    <div className="bg-black text-white bg-opacity-90">
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Public />} />
-          <Route path="login" element={<Login />} />
+    <div className="App bg-repair-shop bg-cover bg-fixed bg-no-repeat text-white">
+      <div className="bg-black bg-opacity-80">
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Public />} />
+            <Route path="login" element={<Login />} />
 
-          <Route path="dash" element={<DashLayout />}>
-            <Route index element={<Welcome />} />
+            <Route path="dash" element={<DashLayout />}>
+              <Route index element={<Welcome />} />
 
-            <Route path="notes">
-              <Route index element={<NotesList />} />
-            </Route>
+              <Route path="notes">
+                <Route index element={<NotesList />} />
+              </Route>
 
-            <Route path="users">
-              <Route index element={<UsersList />} />
-            </Route>
+              <Route path="users">
+                <Route index element={<UsersList />} />
+              </Route>
 
-          </Route>{/* End of dash layout */}
+            </Route>{/* End of dash layout */}
 
-        </Route>
-      </Routes>
+          </Route>
+        </Routes>
+      </div>
     </div>
   )
 }
