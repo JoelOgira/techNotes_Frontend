@@ -12,20 +12,24 @@ const DashFooter = () => {
     if (pathname !== '/dash') {
         goHomeButton = (
             <button
-                className="border-2"
                 title="Home"
                 onClick={onGoHomeClicked}
             >
-                <FontAwesomeIcon icon={faHouse} className="text-3xl border-ad" />
+                <FontAwesomeIcon icon={faHouse} className="text-3xl" />
             </button>
         )
     }
 
     return (
-        <footer className="sticky top-full flex flex-row space-x-5 justify-center items-center py-6">
-            {goHomeButton}
-            <p>Copyright &copy; techNotes {thisYear}</p>
-        </footer>
+        <div className="sticky top-full flex flex-col">
+            <div className="mb-3">
+                <hr className="border" />
+            </div>
+            <footer className="flex flex-row space-x-5 justify-center items-center py-6">
+                {goHomeButton}
+                <p>Copyright &copy; techNotes {thisYear}</p>
+            </footer>
+        </div>
     )
 }
 
