@@ -1,7 +1,7 @@
 
 const UsersList = () => {
     return (
-        <section className="flex flex-col px-5 md:px-0">
+        <section className="flex flex-col">
             <h1>Users</h1>
         </section>
     )
