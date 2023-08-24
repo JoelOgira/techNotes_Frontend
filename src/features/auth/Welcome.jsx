@@ -10,7 +10,7 @@ const Welcome = () => {
             <p className="max-w-xs">{today}</p>
             <h1 className="text-2xl font-semibold underline">Welcome</h1>
             <p><Link to="/dash/notes">View techNotes</Link></p>
-            <p><Link to="/dash/users">View users</Link></p>
+            <p><Link to="/dash/users">View user settings</Link></p>
         </section>
     )
 }
