@@ -10,7 +10,7 @@ const Public = () => {
 
                 <hr className="border" />
 
-                <p>Located in Beautiful Elysium City, Zephyrus provides the best specialists for your augmentation needs.</p>
+                <p className="max-w-md">Located in Beautiful Elysium City, Zephyrus provides the best specialists for your augmentation needs.</p>
 
                 <div className="flex flex-col">
                     <p>Zephyrus Labs</p>
